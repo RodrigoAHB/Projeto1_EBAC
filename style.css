@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    color: #fafafa;
+    padding: 0 25px;
+}
+
+header{
+    background-color: white;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+header .container h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+header .container a {
+    text-decoration: none;
+    color: black;
+}
+
+header .container nav li a:hover{
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+header .container nav ul li{
+    display: inline;
+    margin-left: 20px;
+    font-size: 1.3rem;
+}
+
+section .container h2 {
+    font-weight: normal;
+}
+
+#about .container{
+    padding-top: 2rem;
+}
+
+#about img{
+    height: 300px;
+    margin: 20px 100px 0 0;
+}
+
+#about p {
+    padding-top: 20px;
+}
+
+#about .container .content {
+    display: flex;
+    align-items: center;
+}
+
+#portfolio .container,
+#contact .container{
+    padding-top: 2rem ;
+}
+
+#portfolio .container .content,
+#contact .container .content {
+    padding-top: 1rem;
+}
+
+#portfolio .container .content ul li {
+    list-style: none;
+    padding-top: .5rem;
+}
+
+#portfolio .container .content ul li a{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+#portfolio .container .content ul li a:hover{
+    font-weight: bold;
+}
+
+#portfolio form #email{
+    padding-left: 10px;
+}
+
+.email-container,
+.message-container,
+.message-container #message{
+    margin-top: .5rem;
+}
+
+.email-container label {
+    margin-right: 3px;
+}
+
+section form textarea {
+    width: 400px;
+    height: 350px;
+}
+
+#send-btn{
+    margin-top: .5rem;
+    width: 400px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: #fafafa;
+    color: black;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#send-btn:hover{
+    transition: 0.3s;
+    background-color: orange;
+    color: #fafafa;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
